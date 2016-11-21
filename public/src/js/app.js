@@ -1,4 +1,4 @@
-angular.module('mgmtApp', ['ui.router', 'satellizer', 'ngAnimate', 'ngTouch'])
+angular.module('lpr', ['ui.router', 'ngAnimate', 'ngTouch'])
 .config(function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/');
   $stateProvider
@@ -6,7 +6,6 @@ angular.module('mgmtApp', ['ui.router', 'satellizer', 'ngAnimate', 'ngTouch'])
   .state('home', {
     url: "/" ,
     controller:  'homeCtrl',
-    templateUrl: '../src/view/home.html',
-    restricted: false
+    templateUrl: '../src/views/home.html'
   })
 })
