@@ -43,9 +43,33 @@ table {
   border-spacing: 0; }
 
 .header-container {
-  height: 10vh;
-  border: black; }
+  height: 15vh;
+  margin: 1vh 10vw 1vh 10vw; }
 
-.border {
-  height: 8vw;
-  border: red; }
+.header-top-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vh 5vw 0vh 5vw; }
+
+.logo {
+  height: 10vh; }
+
+.info {
+  display: none; }
+
+.bottom-container {
+  display: flex; }
+
+.nav-box {
+  height: 4vh;
+  width: 20vw;
+  border: 1px solid black; }
+
+@media (min-width: 768px) {
+  .info {
+    display: block; }
+  .menu-button {
+    display: none; } }
+
+.pic-banner {
+  width: 100vw; }
