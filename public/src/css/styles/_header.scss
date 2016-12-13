@@ -1,5 +1,5 @@
 .header-container{
-  height: 15vh;
+  height: 10vh;
   margin: 1vh 10vw 1vh 10vw;
   font-family: $body-font;
   z-index: 130;
@@ -7,7 +7,7 @@
 .header-top-container{
   display: flex;
   justify-content: space-between;
-  margin: 2vh 5vw 0vh 5vw;
+  margin: 2vh 0vw 0vh 0vw;
 }
 .logo-container{
 
@@ -20,13 +20,18 @@
   display: none;
 }
 .bottom-container{
-  display: flex;
+  display: none;
 }
 .nav-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 4vh;
   width: 20vw;
   border: 1px solid black;
-
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: none;
 }
 .menu-btn-box {
   //position: absolute;
@@ -285,6 +290,13 @@ padding-right: 0px;
   }
   .menu-btn-box{
     display: none;
+  }
+  .header-container{
+    height: 14vh;
+  }
+  .bottom-container{
+    display: flex;
+    margin-top: 1vh;
   }
 }
 @media (min-width: 1224px) {

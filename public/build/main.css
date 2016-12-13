@@ -255,7 +255,7 @@ table {
   border-spacing: 0; }
 
 .header-container {
-  height: 15vh;
+  height: 10vh;
   margin: 1vh 10vw 1vh 10vw;
   font-family: "Oswald", sans-serif;
   z-index: 130; }
@@ -263,7 +263,7 @@ table {
 .header-top-container {
   display: flex;
   justify-content: space-between;
-  margin: 2vh 5vw 0vh 5vw; }
+  margin: 2vh 0vw 0vh 0vw; }
 
 .logo {
   height: 10vh; }
@@ -272,12 +272,18 @@ table {
   display: none; }
 
 .bottom-container {
-  display: flex; }
+  display: none; }
 
 .nav-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 4vh;
   width: 20vw;
-  border: 1px solid black; }
+  border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: none; }
 
 .menu-btn-box {
   display: flex;
@@ -471,7 +477,12 @@ table {
   .info {
     display: block; }
   .menu-btn-box {
-    display: none; } }
+    display: none; }
+  .header-container {
+    height: 14vh; }
+  .bottom-container {
+    display: flex;
+    margin-top: 1vh; } }
 
 .pic-banner {
   width: 100vw; }
