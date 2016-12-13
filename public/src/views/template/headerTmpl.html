@@ -3,11 +3,24 @@
     <div class="logo-container">
       <img  class="logo" src="./plogo.png" alt="" />
     </div>
-    <div class="name">Labrum <br>Pump <br>Repair
+    <div class="name-container">
+      <div class="name">
+        Labrum <br>Pump <br>Repair
+      </div>
     </div>
-    <div class="menu-button">
+    <div class='menu-btn-box'>
+      <button ng-click="toggleMenu()" class="menu-btn">
+        <div class="" id="nav-icon3">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+    </div>
+    <!-- <div class="menu-button">
       button
-    </div>
+    </div> -->
     <div class="info">Where to Find Us: <br>
                       1864 S. 2000 W. <br>
                       Roosevelt, UT 84066 <br>
@@ -22,3 +35,14 @@
     <div class="nav-box">Get a Quote</div>
   </div>
 </section>
+
+<div class="menu fade" ng-show="menuShowing" style="background-color: lightgrey;">
+  <ul class="menu-items-list" >
+    <!-- <a ui-sref='login' ng-click="toggleMenu()"><li>login</li></br>
+    <a ui-sref='properties' ng-click="toggleMenu()"><li>properties</li></a></br>
+    <a ui-sref='mainAlerts' ng-click="toggleMenu()"><li>upcoming</li></a></br>
+    <a ui-sref='userSettings' ng-click="toggleMenu()"><li>user settings</li></a></br>
+    <a ui-sref='contact' ng-click="toggleMenu()"><li>about</li></a>
+    <a ui-sref='home' ng-click="toggleMenu()"><li><logout-directive></logout-directive></li></a> -->
+  </ul>
+</div>
