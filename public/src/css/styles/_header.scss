@@ -127,11 +127,17 @@ position: absolute;;
 font-family: $body-font;
 height: 90vh;
 width: 100%;
-font-size: $fontSize3;
-// background-image: url("../../../build/assets/tamil_temp.png");
+font-size: $fontSize4;
+background-image: url("../../../build/assets/diamondPlate.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 z-index: 138;
+}
+.grey{
+  background: rgba(17, 16, 16, 0.9);
+  width: 100%;
+
+
 }
 
 .fade.ng-enter {

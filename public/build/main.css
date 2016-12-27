@@ -254,6 +254,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+a {
+  text-decoration: none;
+  color: #fff; }
+
 .header-container {
   height: 10vh;
   margin: 1vh 10vw 1vh 10vw;
@@ -354,10 +358,15 @@ table {
   font-family: "Oswald", sans-serif;
   height: 90vh;
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  background-image: url("../../../build/assets/diamondPlate.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 138; }
+
+.grey {
+  background: rgba(17, 16, 16, 0.9);
+  width: 100%; }
 
 .fade.ng-enter {
   transition: .2s linear all;
@@ -486,4 +495,5 @@ table {
     margin-top: 1vh; } }
 
 .pic-banner {
-  width: 100vw; }
+  width: 100vw;
+  background-image: url("../../../build/assets/img.jpg"); }

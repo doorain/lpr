@@ -1,7 +1,7 @@
 <section class="header-container">
   <div class="header-top-container">
     <div class="logo-container">
-      <img  class="logo" src="./plogo.png" alt="" />
+      <a ui-sref="home"><img  class="logo" src="./plogo.png" alt="" /></a>
     </div>
     <div class="name-container">
       <div class="name">
@@ -36,12 +36,16 @@
   </div>
 </section>
 
-<div class="menu fade" ng-show="menuShowing" style="background-color: lightgrey;">
-  <ul class="menu-items-list" >
-    <a ui-sref='login' ng-click="toggleMenu()"><li>Chemical Services</li></br>
-    <a ui-sref='properties' ng-click="toggleMenu()"><li>Burner Mgmt</li></a></br>
-    <a ui-sref='mainAlerts' ng-click="toggleMenu()"><li>Sevice & Repair</li></a></br>
-    <a ui-sref='userSettings' ng-click="toggleMenu()"><li>Get a Quote</li></a></br>
+
+<div class="grey menu fade" ng-show="menuShowing" >
+
+    <ul class="menu-items-list" >
+    <a ui-sref='chemicalServices' ng-click="toggleMenu()"><li>Chemical Services</li></a></br>
+    <a ui-sref='burnerMgmt' ng-click="toggleMenu()"><li>Burner Mgmt</li></a></br>
+    <a ui-sref='serviceRepair' ng-click="toggleMenu()"><li>Sevice & Repair</li></a></br>
+    <a ui-sref='getQuote' ng-click="toggleMenu()"><li>Get a Quote</li></a></br>
 
   </ul>
+
+
 </div>
