@@ -494,6 +494,14 @@ a {
     display: flex;
     margin-top: 1vh; } }
 
-.pic-banner {
+.banner-box {
   width: 100vw;
-  background-image: url("../../../build/assets/img.jpg"); }
+  position: relative;
+  border: solid black 1px; }
+
+.ex {
+  height: 10vh;
+  width: 25vw;
+  position: absolute;
+  border-radius: 2px;
+  background-color: rgba(225, 225, 208, 0.3); }
