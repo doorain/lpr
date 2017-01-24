@@ -1,11 +1,38 @@
 .banner-box{
   width: 100vw;
-  border: solid black 1px;
+  // height: 10vh;
+  // border: 1px solid red;
+  // background-image: url("https://transfac.com/wp-content/uploads/2014/05/oilfield_service_factoring.jpg") no-repeat;
 }
-
+.banner-pic{
+  width: 100vw;
+  // height: 20vh;
+}
 .ex{
-  height: 10vh;
+  height: 3vh;
   width: 25vw;
+  // position: absolute;
   border-radius: 2px;
   background-color: rgba(225, 225, 208, .3);
 }
+//
+// @media (min-width: 480px) {
+//   .banner-pic{
+//     height: 22vh
+//   }
+// }
+// @media (min-width: 625px) {
+//   .banner-pic{
+//     height: 25vh
+//   }
+// }
+// @media (min-width: 768px) {
+//   .banner-pic{
+//     height: 30vh
+//   }
+// }
+// @media (min-width: 1224px) {
+//   .banner-pic{
+//     height: 35vh
+//   }
+// }
